@@ -135,7 +135,7 @@ class Sessions(SessionsBase):
     pass
 
 
-class User(BaseUser, tablename="piccolo_user"):
+class User(BaseUser, tablename="users"):
     pass
 
 
