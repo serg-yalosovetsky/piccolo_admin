@@ -2,6 +2,6 @@
 // These interfaces are used for now, to stop TypeScript from complaining.
 
 export interface Context {
-    commit: (mutation: string, value: any) => void
-    dispatch: (actionName: string, arg?: any) => Promise<void>
+  commit: (mutation: string, value: any) => void;
+  dispatch: (actionName: string, arg?: any) => Promise<void>;
 }

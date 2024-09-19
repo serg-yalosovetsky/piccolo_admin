@@ -1,14 +1,14 @@
 interface State {
-    showTimezoneModal: boolean
+  showTimezoneModal: boolean;
 }
 
 export default {
-    state: {
-        showTimezoneModal: false
-    } as State,
-    mutations: {
-        updateShowTimezoneModal(state: State, value: boolean) {
-            state.showTimezoneModal = value
-        }
-    }
-}
+  state: {
+    showTimezoneModal: false,
+  } as State,
+  mutations: {
+    updateShowTimezoneModal(state: State, value: boolean) {
+      state.showTimezoneModal = value;
+    },
+  },
+};

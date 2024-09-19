@@ -1,1 +1,1 @@
-export const TIMEZONE_KEY = "defaultTimezone"
+export const TIMEZONE_KEY = "defaultTimezone";
